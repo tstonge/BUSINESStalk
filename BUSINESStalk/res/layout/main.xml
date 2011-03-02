@@ -6,8 +6,8 @@
  android:gravity = "center"
  xmlns:android="http://schemas.android.com/apk/res/android">
    <Button
-	android:id="@+id/takephoto"
-	android:text="Take a Photo"
+	android:id="@+id/newID"
+	android:text="New ID"
 	android:layout_width = "fill_parent"
 	android:layout_height = "wrap_content"
 	/>  		
