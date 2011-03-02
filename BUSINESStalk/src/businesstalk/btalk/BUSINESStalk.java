@@ -18,8 +18,8 @@ public class BUSINESStalk extends Activity {
         
         takephoto.setOnClickListener(new OnClickListener() {
         	public void onClick(View v) {
-        		Intent camera = new Intent(BUSINESStalk.this, Camera.class);
-        		startActivity(camera);
+        		Intent newid = new Intent(BUSINESStalk.this, NewID.class);
+        		startActivity(newid);
         	}
         });
     }
