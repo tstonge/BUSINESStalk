@@ -5,17 +5,14 @@
  android:layout_weight = "1"
  android:gravity = "center"
  xmlns:android="http://schemas.android.com/apk/res/android">
-   <Button
+   <Button android:layout_height="wrap_content" android:id="@+id/idCustomer" android:text="ID Customer" android:layout_width="fill_parent"></Button><Button
 	android:id="@+id/newID"
 	android:text="New ID"
 	android:layout_width = "fill_parent"
 	android:layout_height = "wrap_content"
 	/>  		
-	<Button
-	android:id="@+id/viewids"
-	android:text="View IDs"
-	android:layout_width = "fill_parent"
-	android:layout_height = "wrap_content"
-	/>
+	
+
+
 </LinearLayout>
 
